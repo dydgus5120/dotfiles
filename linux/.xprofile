@@ -1,0 +1,8 @@
+export GTK_IM_MODULE=kime
+export QT_IM_MODULE=kime
+export XMODIFIERS=@im=kime
+
+xmodmap -e 'rmove mod1 = Alt_R'
+xmodmap -e 'keycode 108 = Hangul'
+xmodmap -e 'remove control = Control_R'
+xmodmap -e 'keycode 105 = Hangul_Hanja'
