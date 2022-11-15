@@ -8,4 +8,4 @@ alias vim='nvim'
 alias view='nvim -R'
 alias vimdiff='nvim =d'
 
-alias svim='sudo nvim'
+alias svim='sudo -E -s nvim'
